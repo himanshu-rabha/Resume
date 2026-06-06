@@ -1,0 +1,291 @@
+%-------------------------------------------
+% Himanshu Rabha - VLSI Resume
+%-------------------------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------------------------
+% Custom Commands
+%-------------------------------------------
+
+\newcommand{\resumeItem}[1]{
+\item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{\large #1} & \textbf{\small #2} \\
+\textit{\small #3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+\item
+\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+\small #1 & \textbf{\small #2}\\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in,label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%------------------------------------------------
+% HEADER
+%------------------------------------------------
+
+\begin{center}
+
+{\Huge \textbf{Himanshu Rabha}}
+
+\vspace{3pt}
+
+Assam, India
+
+\vspace{3pt}
+
+\small
+\faPhone\ +91-7002528476
+\quad
+\faEnvelope\ himangshurabha10@gmail.com
+\quad
+\faLinkedin\ \href{https://linkedin.com/in/himanshurabha}{LinkedIn} \quad
+\quad
+\faGithub\ \href{https://github.com/himanshu-rabha}{GitHub}
+
+\end{center}
+
+\vspace{-5pt}
+
+%------------------------------------------------
+% EDUCATION
+%------------------------------------------------
+
+\section{EDUCATION}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Tezpur University}{2025 -- Present}
+{M.Tech - Electronic Design and Technology}{Tezpur, Assam}
+
+\resumeSubheading
+{Central Institute of Technology Kokrajhar}{2021 -- 2025}
+{B.Tech - Instrumentation Engineering}{Kokrajhar, Assam}
+
+\resumeSubHeadingListEnd
+
+%------------------------------------------------
+% COURSEWORK
+%------------------------------------------------
+
+\section{RELEVANT COURSEWORK}
+
+\begin{multicols}{2}
+\begin{itemize}[itemsep=-2pt]
+
+\item Physics and Technology of Semiconductor Devices
+\item Advanced Semiconductor Devices
+\item Advanced Logic Circuits
+\item Mixed Signal Design
+\item Modeling and Simulation of Digital Systems
+\item Communication System Design
+\item Electronic Product Design
+\item Programming for Electronics Systems
+
+\end{itemize}
+\end{multicols}
+
+\vspace{-10pt}
+
+%------------------------------------------------
+% VLSI PROJECTS
+%------------------------------------------------
+
+\section{VLSI PROJECTS}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{\underline{UART Transmitter and Receiver}} $|$ Verilog HDL, FSM Design}
+{2026}
+
+\resumeItemListStart
+\resumeItem{Designed UART transmitter and receiver modules using Verilog HDL.}
+\resumeItem{Implemented FSM-based communication architecture.}
+\resumeItem{Developed testbench and verified functionality using simulation waveforms.}
+\resumeItemListEnd
+
+\vspace{-8pt}
+
+\resumeProjectHeading
+{\textbf{\underline{Synchronous FIFO Memory Design}} $|$ Verilog HDL}
+{2026}
+
+\resumeItemListStart
+\resumeItem{Designed synchronous FIFO architecture with read/write logic.}
+\resumeItem{Implemented status flag generation and buffer management.}
+\resumeItem{Verified overflow and underflow conditions through simulation.}
+\resumeItemListEnd
+
+\vspace{-8pt}
+
+\resumeProjectHeading
+{\textbf{\underline{8-bit Arithmetic Logic Unit (ALU)}} $|$ RTL Design}
+{2026}
+
+\resumeItemListStart
+\resumeItem{Designed arithmetic and logical operation blocks using Verilog HDL.}
+\resumeItem{Implemented addition, subtraction, logical and shift operations.}
+\resumeItem{Validated functionality using testbench-driven verification.}
+\resumeItemListEnd
+
+\vspace{-8pt}
+
+\resumeProjectHeading
+{\textbf{\underline{Traffic Light Controller using FSM}} $|$ Verilog HDL}
+{2026}
+
+\resumeItemListStart
+\resumeItem{Designed FSM-based traffic controller with timing sequence management.}
+\resumeItem{Implemented state transition logic and signal generation.}
+\resumeItem{Verified behavior using simulation waveforms.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%------------------------------------------------
+% ACADEMIC PROJECTS
+%------------------------------------------------
+
+\section{ACADEMIC PROJECTS}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{\underline{Solar PV Based Cooling System with MPPT Controller}} $|$ MATLAB, Simulink}
+{2025}
+
+\resumeItemListStart
+\resumeItem{Designed and simulated a solar-powered cooling system using MPPT techniques.}
+\resumeItem{Analyzed system efficiency under varying environmental conditions.}
+\resumeItemListEnd
+
+\vspace{-8pt}
+
+\resumeProjectHeading
+{\textbf{\underline{Speed Control of DC Motor using DC-DC Converter}} $|$ Control Systems}
+{2024}
+
+\resumeItemListStart
+\resumeItem{Developed converter-based speed control system for DC motor applications.}
+\resumeItem{Studied speed regulation and dynamic performance through simulation.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%------------------------------------------------
+% INDUSTRIAL TRAINING
+%------------------------------------------------
+
+\section{INDUSTRIAL TRAINING}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Numaligarh Refinery Limited (NRL)}{1 Month}
+{Industrial Training}{Assam}
+
+\resumeItemListStart
+\resumeItem{Observed industrial instrumentation and process control systems.}
+\resumeItem{Studied sensors, transmitters, control panels and automation practices.}
+\resumeItem{Gained exposure to refinery plant operations and maintenance activities.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%------------------------------------------------
+% TECHNICAL SKILLS
+%------------------------------------------------
+
+\section{TECHNICAL SKILLS}
+
+\begin{itemize}[leftmargin=0.15in,label={}]
+\small{\item{
+
+\textbf{HDLs:}
+VHDL, Verilog HDL, SystemVerilog (Basic)
+
+\\
+
+\textbf{Digital Design:}
+RTL Design, FSM Design, Combinational Logic, Sequential Logic, Timing Concepts
+
+\\
+
+\textbf{Semiconductor:}
+Semiconductor Device Physics, CMOS Fundamentals, Mixed Signal Design
+
+\\
+
+\textbf{Tools:}
+ModelSim, Xillinx ISE, Vivado (Basic), MATLAB, Simulink, LTSpice, Multisim, EasyEDA
+
+\\
+
+\textbf{Programming:}
+C, Python
+
+}}
+\end{itemize}
+
+\vspace{-10pt}
+
+%------------------------------------------------
+% INTERESTS
+%------------------------------------------------
+
+\section{AREAS OF INTEREST}
+
+VLSI Design \quad • \quad RTL Design \quad • \quad Design Verification \quad • \quad ASIC Design Flow
+
+FPGA Design \quad • \quad Semiconductor Devices \quad • \quad Digital System Design
+
+\end{document}
